@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color:#0D1F2D">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mike's Tree Service | Tree Removal &amp; 24-Hour Emergency Service in Montgomery, AL</title>
+<meta name="description" content="Tree removal, 24-hour emergency service, trimming, stump grinding and property clearing in Montgomery, Prattville, Auburn, Millbrook, Wetumpka, Tallassee and Pike Road, AL. Call 334-850-8587.">
+<meta name="theme-color" content="#0D1F2D">
+<style>
+  html{background-color:#0D1F2D;scroll-behavior:smooth}
+  body{background-color:#0D1F2D;margin:0}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+  :focus-visible{outline:3px solid #FF9F1C;outline-offset:3px}
+  select option{background:#091722;color:#fff}
+  ::placeholder{color:rgba(255,255,255,.6)}
+</style>
+
+<!-- Tailwind CDN Configuration (Suppresses Development Warning Banner) -->
+<script>
+  window.tailwind = {
+    config: {
+      theme: {
+        extend: {
+          colors: {
+            storm: '#0D1F2D',
+            deep: '#091722',
+            slate2: '#14304A',
+            amber: '#FF9F1C'
+          },
+          fontFamily: {
+            display: ['Georgia', '"Times New Roman"', 'serif'],
+            sans: ['system-ui', '-apple-system', '"Segoe UI"', 'Roboto', 'Arial', 'sans-serif']
+          }
+        }
+      }
+    }
+  }
+</script>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans text-white antialiased bg-storm pb-24 md:pb-0">
+
+<a href="#quote" class="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[100] focus:bg-amber focus:text-deep focus:px-4 focus:py-3 focus:rounded-lg font-bold">Skip to quote form</a>
+
+<header class="sticky top-0 z-50 bg-storm/95 backdrop-blur border-b border-white/10">
+  <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between gap-3">
+    <a href="#top" class="flex items-center gap-3 min-h-[48px]" aria-label="Mike's Tree Service home">
+      <span class="w-12 h-12 rounded-xl bg-white overflow-hidden flex items-center justify-center shrink-0">
+        <img src="logo.jpg" alt="Mike's Tree Service logo" class="w-full h-auto object-cover" width="48" height="48">
+      </span>
+      <span class="leading-tight">
+        <span class="block font-display text-lg font-bold">Mike's Tree Service</span>
+        <span class="block text-xs text-amber font-semibold">Montgomery, AL &amp; surrounding areas</span>
+      </span>
+    </a>
+    <nav class="hidden md:flex items-center gap-6 text-sm font-semibold" aria-label="Main">
+      <a href="#services" class="py-3 hover:text-amber">Services</a>
+      <a href="#work" class="py-3 hover:text-amber">Our Work</a>
+      <a href="#areas" class="py-3 hover:text-amber">Areas</a>
+      <a href="#faq" class="py-3 hover:text-amber">FAQ</a>
+    </nav>
+    <a href="tel:3348508587" class="inline-flex items-center justify-center min-h-[48px] px-4 sm:px-5 rounded-full bg-amber text-deep font-extrabold text-sm sm:text-base hover:bg-white transition-colors" aria-label="Call Mike's Tree Service at 334-850-8587">334-850-8587</a>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- HERO + INLINE FORM -->
+<section class="relative overflow-hidden">
+  <div class="absolute inset-0" aria-hidden="true">
+    <img src="mikes-tree-service-grapple-truck.jpg" alt="" class="w-full h-full object-cover opacity-30" fetchpriority="high" width="1600" height="900">
+    <div class="absolute inset-0 bg-gradient-to-b from-storm/70 via-storm/85 to-storm"></div>
+  </div>
+  <div class="relative max-w-6xl mx-auto px-4 pt-12 pb-16 md:pt-20 md:pb-24 grid lg:grid-cols-5 gap-10 items-start">
+    <div class="lg:col-span-3">
+      <p class="inline-flex items-center gap-2 rounded-full border border-amber/50 bg-amber/10 px-4 py-2 text-sm font-semibold text-amber">
+        <span class="w-2 h-2 rounded-full bg-amber"></span>
+        <span>24-hour emergency service in Montgomery, AL</span>
+      </p>
+      <h1 class="mt-6 font-display text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.08]">
+        Storm damage or a risky tree? Mike's crew is on the way.
+      </h1>
+      <p class="mt-6 text-lg text-white/90 max-w-xl leading-relaxed">
+        Professional tree removal, precision trimming, stump grinding and full property clearing for homeowners in Montgomery, Prattville, Auburn, Millbrook, Wetumpka, Tallassee and Pike Road.
+      </p>
+      <div class="mt-8 flex flex-col sm:flex-row gap-3">
+        <a href="tel:3348508587" class="inline-flex items-center justify-center min-h-[60px] px-8 rounded-full bg-amber text-deep text-lg font-extrabold hover:bg-white transition-colors">Call 334-850-8587</a>
+        <a href="#quote" class="inline-flex items-center justify-center min-h-[60px] px-8 rounded-full border-2 border-white/50 text-lg font-bold hover:border-amber hover:text-amber transition-colors">Get a Free Quote</a>
+      </div>
+      <ul class="mt-8 flex flex-wrap gap-x-6 gap-y-3 text-sm font-semibold">
+        <li class="flex items-center gap-2"><span class="text-amber" aria-hidden="true">&#10003;</span><span>24-hour emergency response</span></li>
+        <li class="flex items-center gap-2"><span class="text-amber" aria-hidden="true">&#10003;</span><span>Bucket truck and grapple truck</span></li>
+        <li class="flex items-center gap-2"><span class="text-amber" aria-hidden="true">&#10003;</span><span>Free estimates</span></li>
+      </ul>
+    </div>
+
+    <div id="quote" class="lg:col-span-2 scroll-mt-24">
+      <div class="rounded-3xl bg-slate2/95 border border-white/15 p-6 sm:p-8 shadow-2xl shadow-black/40">
+        <h2 class="font-display text-2xl font-bold">Get your free quote</h2>
+        <p class="mt-2 text-sm text-white/85">Fill this in right here. No extra pages, no extra clicks.</p>
+        <form action="https://formspree.io/f/mnpjnjqj" method="POST" class="mt-6 space-y-4" aria-label="Free quote request form">
+          <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" class="hidden" aria-hidden="true">
+          <input type="hidden" name="_subject" value="New quote request from Mike's Tree Service website">
+          <div>
+            <label for="lead-name" class="block text-sm font-bold mb-1.5">Full Name *</label>
+            <input id="lead-name" name="name" type="text" required autocomplete="name" placeholder="e.g. John Miller" class="w-full min-h-[48px] rounded-lg bg-white/10 border border-white/30 px-4 py-3 text-white focus:border-amber focus:outline-none">
+          </div>
+          <div>
+            <label for="lead-phone" class="block text-sm font-bold mb-1.5">Phone Number *</label>
+            <input id="lead-phone" name="phone" type="tel" inputmode="tel" required autocomplete="tel" placeholder="(334) 000-0000" class="w-full min-h-[48px] rounded-lg bg-white/10 border border-white/30 px-4 py-3 text-white focus:border-amber focus:outline-none">
+          </div>
+          <div>
+            <label for="lead-zip" class="block text-sm font-bold mb-1.5">ZIP Code or Property Address *</label>
+            <input id="lead-zip" name="zip-code" type="text" required placeholder="e.g. 36104 or Street Address" class="w-full min-h-[48px] rounded-lg bg-white/10 border border-white/30 px-4 py-3 text-white focus:border-amber focus:outline-none">
+          </div>
+          <div>
+            <label for="service-type" class="block text-sm font-bold mb-1.5">Service Needed *</label>
+            <select id="service-type" name="service" class="w-full min-h-[48px] rounded-lg bg-[#091722] border border-white/30 px-4 py-3 text-white focus:border-amber focus:outline-none text-sm">
+              <option value="Hazardous Tree Removal">Hazardous Tree Removal</option>
+              <option value="Tree Trimming and Pruning">Tree Trimming &amp; Pruning</option>
+              <option value="Storm Cleanup">Storm Cleanup &amp; Clearance</option>
+              <option value="Stump Grinding">Stump Grinding</option>
+            </select>
+          </div>
+          <button type="submit" class="w-full min-h-[56px] rounded-full bg-amber text-deep text-lg font-extrabold hover:bg-white transition-colors">Request My Free Quote</button>
+          <p class="text-xs text-white/80 text-center">Need help right now? <a href="tel:3348508587" class="underline font-bold text-amber py-2 inline-block">Call 334-850-8587</a></p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-deep border-y border-white/10" aria-label="Trust signals">
+  <div class="max-w-6xl mx-auto px-4 py-6 grid grid-cols-2 md:grid-cols-4 gap-4 text-center text-sm font-semibold">
+    <p class="py-2">24-Hour Emergency Service</p>
+    <p class="py-2">Bucket Truck Equipped</p>
+    <p class="py-2">Free Estimates</p>
+    <p class="py-2">Serving 7 Alabama Cities</p>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="scroll-mt-20 max-w-6xl mx-auto px-4 py-16 md:py-24">
+  <h2 class="font-display text-3xl md:text-4xl font-bold max-w-2xl">Three ways we protect your property</h2>
+  <p class="mt-4 text-white/90 max-w-2xl text-lg">From a single hazardous branch to a whole lakefront lot, we bring the right crew and equipment.</p>
+  <div class="mt-10 grid md:grid-cols-3 gap-6">
+    <article class="rounded-3xl bg-slate2 border border-white/10 overflow-hidden flex flex-col">
+      <div class="aspect-[16/10] overflow-hidden"><img src="massive-trunk-stump-removal-crew.jpg" alt="Crew removing a massive tree trunk and stump" class="w-full h-auto object-cover" loading="lazy" decoding="async" width="800" height="500"></div>
+      <div class="p-6 flex-1 flex flex-col">
+        <h3 class="font-display text-2xl font-bold">Tree Removal &amp; 24-Hour Emergency</h3>
+        <p class="mt-3 text-white/90 leading-relaxed">Fallen, leaning or storm-damaged trees removed safely, day or night.</p>
+        <a href="tel:3348508587" class="mt-auto pt-4 inline-flex items-center min-h-[48px] font-bold text-amber underline">Call for emergency help</a>
+      </div>
+    </article>
+    <article class="rounded-3xl bg-slate2 border border-white/10 overflow-hidden flex flex-col">
+      <div class="aspect-[16/10] overflow-hidden"><img src="arborist-tree-climbing-chainsaw.jpg" alt="Arborist climbing a tree with a chainsaw to prune it" class="w-full h-auto object-cover" loading="lazy" decoding="async" width="800" height="500"></div>
+      <div class="p-6 flex-1 flex flex-col">
+        <h3 class="font-display text-2xl font-bold">Precision Trimming &amp; Pruning</h3>
+        <p class="mt-3 text-white/90 leading-relaxed">Remove dangerous limbs and shape healthy trees without harming them.</p>
+        <a href="#quote" class="mt-auto pt-4 inline-flex items-center min-h-[48px] font-bold text-amber underline">Get a trimming quote</a>
+      </div>
+    </article>
+    <article class="rounded-3xl bg-slate2 border border-white/10 overflow-hidden flex flex-col">
+      <div class="aspect-[16/10] overflow-hidden"><img src="lakeside-property-tree-cleanup-tractor.jpg" alt="Tractor clearing trees and debris from a lakeside property" class="w-full h-auto object-cover" loading="lazy" decoding="async" width="800" height="500"></div>
+      <div class="p-6 flex-1 flex flex-col">
+        <h3 class="font-display text-2xl font-bold">Stump Grinding &amp; Property Clearing</h3>
+        <p class="mt-3 text-white/90 leading-relaxed">Stumps ground down and lots cleared so you can use your land again.</p>
+        <a href="#quote" class="mt-auto pt-4 inline-flex items-center min-h-[48px] font-bold text-amber underline">Request an estimate</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="work" class="scroll-mt-20 bg-deep">
+  <div class="max-w-6xl mx-auto px-4 py-16 md:py-24">
+    <h2 class="font-display text-3xl md:text-4xl font-bold">Real jobs from our crews</h2>
+    <div class="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <figure class="rounded-3xl overflow-hidden bg-slate2">
+        <img src="broken-hanging-tree-branch-hazard.jpg" alt="Broken branch hanging dangerously from a tree" class="w-full h-auto object-cover" loading="lazy" decoding="async" width="800" height="600">
+        <figcaption class="p-4 text-sm font-semibold">Hanging branch hazard</figcaption>
+      </figure>
+      <figure class="rounded-3xl overflow-hidden bg-slate2">
+        <img src="bucket-truck-lakefront-tree-trimming.jpg" alt="Bucket truck trimming a tree on a lakefront property" class="w-full h-auto object-cover" loading="lazy" decoding="async" width="800" height="600">
+        <figcaption class="p-4 text-sm font-semibold">Bucket truck trimming, lakefront</figcaption>
+      </figure>
+      <figure class="rounded-3xl overflow-hidden bg-slate2">
+        <img src="large-tree-topping-sectioned-branches.jpg" alt="Large tree topped with branches cut into sections" class="w-full h-auto object-cover" loading="lazy" decoding="async" width="800" height="600">
+        <figcaption class="p-4 text-sm font-semibold">Large tree topping and sectioning</figcaption>
+      </figure>
+      <figure class="rounded-3xl overflow-hidden bg-slate2 sm:col-span-2 lg:col-span-3">
+        <img src="uprooted-fallen-tree-lakefront-lawn.jpg" alt="Uprooted tree that fell across a lakefront lawn after a storm" class="w-full h-auto object-cover max-h-[520px]" loading="lazy" decoding="async" width="1200" height="600">
+        <figcaption class="p-4 text-sm font-semibold">Storm damage: uprooted tree on a lakefront lawn</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- AREAS -->
+<section id="areas" class="scroll-mt-20 max-w-6xl mx-auto px-4 py-16 md:py-24">
+  <h2 class="font-display text-3xl md:text-4xl font-bold">Cities we serve</h2>
+  <ul class="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4">
+    <li class="rounded-2xl bg-slate2 border border-white/10 px-5 py-5 font-bold">Montgomery</li>
+    <li class="rounded-2xl bg-slate2 border border-white/10 px-5 py-5 font-bold">Prattville</li>
+    <li class="rounded-2xl bg-slate2 border border-white/10 px-5 py-5 font-bold">Auburn</li>
+    <li class="rounded-2xl bg-slate2 border border-white/10 px-5 py-5 font-bold">Millbrook</li>
+    <li class="rounded-2xl bg-slate2 border border-white/10 px-5 py-5 font-bold">Wetumpka</li>
+    <li class="rounded-2xl bg-slate2 border border-white/10 px-5 py-5 font-bold">Tallassee</li>
+    <li class="rounded-2xl bg-slate2 border border-white/10 px-5 py-5 font-bold">Pike Road</li>
+  </ul>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="scroll-mt-20 bg-deep">
+  <div class="max-w-3xl mx-auto px-4 py-16 md:py-24">
+    <h2 class="font-display text-3xl md:text-4xl font-bold">Common questions</h2>
+    <div class="mt-8 space-y-3">
+      <details class="rounded-2xl bg-slate2 border border-white/10 p-5">
+        <summary class="cursor-pointer min-h-[48px] flex items-center font-bold text-lg">Do you work after storms and at night?</summary>
+        <p class="mt-2 text-white/90 leading-relaxed">Yes. We offer 24-hour emergency service. Call <a href="tel:3348508587" class="underline text-amber font-bold">334-850-8587</a> any time.</p>
+      </details>
+      <details class="rounded-2xl bg-slate2 border border-white/10 p-5">
+        <summary class="cursor-pointer min-h-[48px] flex items-center font-bold text-lg">How do I get a free estimate?</summary>
+        <p class="mt-2 text-white/90 leading-relaxed">Use the quote form at the top of the page or call us. We'll follow up quickly with a clear price.</p>
+      </details>
+      <details class="rounded-2xl bg-slate2 border border-white/10 p-5">
+        <summary class="cursor-pointer min-h-[48px] flex items-center font-bold text-lg">Do you grind stumps and clear land?</summary>
+        <p class="mt-2 text-white/90 leading-relaxed">Yes. We grind stumps and clear the whole property so it's ready to use.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="max-w-4xl mx-auto px-4 py-16 md:py-24 text-center">
+  <h2 class="font-display text-3xl md:text-5xl font-bold">Don't wait for the next storm</h2>
+  <p class="mt-4 text-lg text-white/90">Call now or request a free quote. We're ready when you are.</p>
+  <div class="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
+    <a href="tel:3348508587" class="inline-flex items-center justify-center min-h-[60px] px-8 rounded-full bg-amber text-deep text-lg font-extrabold hover:bg-white transition-colors">Call 334-850-8587</a>
+    <a href="#quote" class="inline-flex items-center justify-center min-h-[60px] px-8 rounded-full border-2 border-white/50 text-lg font-bold hover:border-amber hover:text-amber transition-colors">Get a Free Quote</a>
+  </div>
+</section>
+</main>
+
+<footer class="bg-deep border-t border-white/10">
+  <div class="max-w-6xl mx-auto px-4 py-8 text-sm text-white/85 flex flex-col md:flex-row md:justify-between gap-3">
+    <p>&copy; 2026 Mike's Tree Service. Montgomery, AL.</p>
+    <p><a href="tel:3348508587" class="underline font-bold text-amber min-h-[48px] inline-flex items-center">334-850-8587</a></p>
+  </div>
+</footer>
+
+<div class="md:hidden fixed bottom-0 inset-x-0 z-50 bg-storm/95 backdrop-blur border-t border-white/15 p-3 grid grid-cols-2 gap-3">
+  <a href="tel:3348508587" class="inline-flex items-center justify-center min-h-[52px] rounded-full bg-amber text-deep font-extrabold" aria-label="Call Mike's Tree Service now">Call Now</a>
+  <a href="#quote" class="inline-flex items-center justify-center min-h-[52px] rounded-full border-2 border-white/50 font-bold">Free Quote</a>
+</div>
+
+</body>
+</html>
